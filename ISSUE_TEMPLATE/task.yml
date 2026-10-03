@@ -1,0 +1,22 @@
+name: Task
+description: Capture a task or small piece of work
+title: ""
+labels: ["type:task"]
+body:
+  - type: textarea
+    id: task
+    attributes:
+      label: What needs to be done?
+      description: Describe the work briefly. Add details later if needed.
+      placeholder: Describe what needs to be done...
+    validations:
+      required: true
+
+  - type: textarea
+    id: done
+    attributes:
+      label: When is it done?
+      description: One short criterion that confirms the task is complete.
+      placeholder: This task is done when...
+    validations:
+      required: false
