@@ -13,3 +13,4 @@
 - [ ] Tests pass locally
 - [ ] No unrelated changes
 - [ ] No breaking changes (or documented)
+- [ ] I can explain and maintain this code without AI
